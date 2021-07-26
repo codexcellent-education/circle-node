@@ -98,7 +98,7 @@ const server = http.createServer((request, response) => {
 })
 
 const args = process.argv.slice(2)
-let host = '127.0.0.1'
+let host = '0.0.0.0'
 let port = 8080
 if (args.length === 2) {
   host = args[0]
