@@ -15,6 +15,9 @@
     "test:watch": "jest --watchAll",
     "testall": "yarn run lint && yarn run test"
   },
+  "engines": {
+    "yarn": "1.0.0"
+  },
   "lint-staged": {
     "*.{js,vue}": "eslint"
   },
