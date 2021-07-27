@@ -107,5 +107,5 @@ if (args.length === 2) {
 if (args.length === 1) {
   port = args[0]
 }
-server.listen(port, host)
+server.listen(process.env.PORT || 5000, host)
 console.log(`Starting httpd on port ${port}`)
